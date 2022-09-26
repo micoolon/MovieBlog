@@ -12,7 +12,7 @@ function App() {
         <Nav />
         <Routes>
           <Route exact path="/" element={<Home />} />
-          <Route path="/Movie" element={<MoviePage />} />
+          <Route path="/movie/:id" element={<MoviePage />} />
         </Routes>
       </Router>
     </div>
